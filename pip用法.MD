@@ -1,6 +1,6 @@
 1、列出当前python环境已经安装的第三方模块列表
 
-`pip freeze `或`pip list`
+`pip freeze `或 `pip list`
 
 2、导出当前python环境已经安装的第三方模块列表
 
@@ -8,11 +8,11 @@
 
 pip freeze > /Desktop/requirements.txt
 
-3、在线安装第三方模块或者通过requirements.txt进行模块安装
+*3、在线安装第三方模块或者通过requirements.txt进行模块安装*
 
-普通用法：pip install modelName 或 pip install -r requirements.txt
+*普通用法：pip install modelName* 
 
-安装指定版本模块: pip install modelName==0.0.1(不指定版本则默认安装最新版本)
+*安装指定版本模块: pip install modelName==0.0.1(不指定版本则默认安装最新版本)*
 
 如果同时安装的模块较多建议通过requirements.txt来将模块罗列出来进行安装
 
@@ -30,9 +30,14 @@ pip install -U modelName 或者
 
 如果有多个需要进行升级的模块可通过requirements.txt文件来进行，将文件中模块版本的==替换为>=
 
-6、第三方模块卸载
+#### 6、第三方模块卸载
 
 pip uninstall modelName
+
+## 安装指定模块或版本
+
+* `conda install package-name`
+* `conda install package-name==version`
 
 7、显示已经安装的某模块信息
 

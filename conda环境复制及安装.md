@@ -28,3 +28,15 @@ conda env list
 ```
 conda activate myownerenv_name
 ```
+
+### * 将当前环境已经安装的第三方模块导出到桌面的requirements.txt文件
+
+```
+pip freeze > /Desktop/requirements.txt
+```
+
+### conda升级
+
+```
+conda update conda
+```
