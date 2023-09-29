@@ -1,6 +1,6 @@
 1、列出当前python环境已经安装的第三方模块列表
 
-pip freeze 或pip list
+`pip freeze `或`pip list`
 
 2、导出当前python环境已经安装的第三方模块列表
 
@@ -71,17 +71,3 @@ pip download -d 目录地址 -r requirements.txt
 Cd 模块所在目录:
 
 Pip install *.whl 或 python setup.py install
-
-14、指定镜像源安装
-
-pip在进行在线安装的默认地址是国外的镜像源：pypi.org,下载速度比较慢，timeout是常有的事，所以可以通过国内的镜像源进行在线安装，常用国内pip镜像：
-
-豆瓣镜像：[https://pypi](https://link.zhihu.com/?target=https%3A//pypi/).[douban.com/simple](https://link.zhihu.com/?target=http%3A//douban.com/simple)
-
-清华镜像：[https://pypi](https://link.zhihu.com/?target=https%3A//pypi/).[tuna.tsinghua.edu.cn/simple](https://link.zhihu.com/?target=http%3A//tuna.tsinghua.edu.cn/simple)
-
-阿里镜像：[https://mirrors](https://link.zhihu.com/?target=https%3A//mirrors/).[aliyun.com/pypi/simple/](https://link.zhihu.com/?target=http%3A//aliyun.com/pypi/simple/)
-
-指定镜像源进行模块安装：
-
-pip install modelName -i [https://pypi](https://link.zhihu.com/?target=https%3A//pypi/).[douban.com/simple](https://link.zhihu.com/?target=http%3A//douban.com/simple)
