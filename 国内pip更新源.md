@@ -1,11 +1,34 @@
+### 镜像源进行模块安装：
 
-* 指定镜像源进行模块安装：
-
-```
+```plantuml
 pip install modelname -i https://pypi.douban.com/simple
 ```
 
-#### * 国内相关镜像源
+### pip工具更新
+
+```
+python -m pip install --upgrade pip 
+```
+
+    或者
+
+```
+pip install -U pip
+```
+
+### pip工具更新
+
+```
+python -m pip install --upgrade pip 
+```
+
+    或者
+
+```
+pip install -U pip
+```
+
+### 国内相关镜像源
 
 清华大学
 
