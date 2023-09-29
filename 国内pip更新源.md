@@ -1,7 +1,7 @@
 ### 镜像源进行模块安装：
 
 ```plantuml
-pip install modelname -i https://pypi.douban.com/simple
+ pip install modelname -i https://pypi.douban.com/simple
 ```
 
 ### pip工具更新
