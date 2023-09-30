@@ -7,7 +7,7 @@
 ### * 当我们想再次创建该环境，或根据别人提供的.yaml文件复现环境时，就可以通过下面的命令来复现安装环境了。根据环境文件进行复制
 
 ```
-conda env create -f environment.yaml
+从哪conda env create -f environment.yaml
 ```
 
 ### * **查看已有的虚拟环境，选择你要切换到的虚拟环境**
@@ -39,4 +39,10 @@ pip freeze > /Desktop/requirements.txt
 
 ```
 conda update conda
+```
+
+### 删除环境
+
+```
+conda remove --name your_env_name --all
 ```
